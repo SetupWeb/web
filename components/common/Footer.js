@@ -1,7 +1,7 @@
 import Link from "next/link"
-import { TitleLogo } from "./Title"
+import { AiFillInstagram, AiFillTwitterCircle, AiFillYoutube } from "react-icons/ai"
 import { BsFacebook } from "react-icons/bs"
-import {AiFillInstagram, AiFillLinkedin, AiFillTwitterCircle, AiFillYoutube } from "react-icons/ai"
+import { TitleLogo } from "./Title"
 
 const Footer = () => {
   return (
@@ -96,12 +96,12 @@ const Footer = () => {
           </div>
           <div className='legal connect py'>
             <div className='text'>
-              <span>© 2023 SetupWeb. ALL RIGHTS RESERVED.</span>
+              <span>© 2023 SetupWeb.</span>
             </div>
             <div className='connect'>
-              <span>By SetupWeb</span>
-              <span> &nbsp; | &nbsp; </span>
-              <span>TERMS & CONDITIONS</span>
+              <span>ALL RIGHTS RESERVED.</span>
+              <span> &nbsp; &nbsp; </span>
+              <span></span>
             </div>
           </div>
         </div>

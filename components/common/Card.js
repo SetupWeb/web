@@ -1,6 +1,6 @@
 import Link from "next/link"
-import { TitleSm } from "./Title"
 import { HiOutlineArrowRight } from "react-icons/hi"
+import { TitleSm } from "./Title"
 
 export const Card = ({ data, caption, show, path }) => {
   return (
@@ -10,7 +10,7 @@ export const Card = ({ data, caption, show, path }) => {
           <img src={data.cover} alt={data.title} />
         </div>
         <div className='card-details'>
-          <Link href="/#home" className='title-link'>
+          <Link href="https://www.behance.net/setupweb-in" target="_blank" className='title-link'>
             <TitleSm title={data.title} />
           </Link>
           {caption && (

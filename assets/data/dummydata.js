@@ -43,7 +43,7 @@ export const expertise = [
   },
   {
     id: 4,
-    title: "Graphic Designing",
+    title: "Graphic Design",
     cover: "../images/graphics.png",
     desc: [{ text: "Complete Branding." }, { text: "Logo Designing" }, { text: "Graphic Designs" }, { text: "Product Packaging Designs" },{ text: "Business Presentation" }, { text: "2D & 3D Animated Videoes" }],
   },
@@ -85,6 +85,7 @@ export const showcase = [
     title: "2D & 3D Video Making",
     cover: "../images/2d.jpeg",
     catgeory: "VIDEO MAKING",
+
   },
   {
     id: 2,

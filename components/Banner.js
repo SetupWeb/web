@@ -12,7 +12,7 @@ const Banner = () => {
           </div>
           <div>
             <button className='button-primary'>
-           <a href='https://docs.google.com/forms/d/e/1FAIpQLSdzQwat6ncrKleyjRUWK6XkwWccq5xSuyEKJPwbh9xiqGVzGA/viewform?usp=sf_link' target="_blank" id="btn-text" class="btn-text">Get Touch With Us</a>
+           <a href='https://docs.google.com/forms/d/e/1FAIpQLSdzQwat6ncrKleyjRUWK6XkwWccq5xSuyEKJPwbh9xiqGVzGA/viewform?usp=sf_link' target="_blank" id="btn-text" class="btn-text">Request Quote</a>
             </button>
           </div>
         </div>

@@ -1,12 +1,12 @@
-import { AiOutlineCalendar } from "react-icons/ai"
-import { BiUser } from "react-icons/bi"
-import { TfiRulerPencil } from "react-icons/tfi"
-import { VscFileSubmodule } from "react-icons/vsc"
+import { AiOutlineCalendar } from "react-icons/ai";
+import { BiUser } from "react-icons/bi";
+import { TfiRulerPencil } from "react-icons/tfi";
+import { VscFileSubmodule } from "react-icons/vsc";
 
 export const home = [
   {
     icon: <AiOutlineCalendar size={25} />,
-    title: "1+ years of market experience",
+    title: "2+ years of market experience",
   },
   {
     icon: <TfiRulerPencil size={25} />,
@@ -14,41 +14,81 @@ export const home = [
   },
   {
     icon: <VscFileSubmodule size={25} />,
-    title: "10+ sucessful projects.",
+    title: "200+ sucessful projects.",
   },
   {
     icon: <BiUser size={25} />,
     title: "Customer satisfaction is our top priority",
   },
-]
+];
 export const expertise = [
   {
     id: 1,
     title: "Web Design & Development",
     cover: "../images/web.jpg",
-    desc: [{ text: "Custom Website Development" }, { text: "UI-UX Design" }, { text: "Responsive Web Design" }, { text: "Multi-Purpose Landing Page Designing" }, { text: "Website Redesigning" },
-    { text: "Fully Customised Website Design" }, { text: "React Js Development" }, { text: "Node Js Development" }, { text: "Wordpress Development" }, { text: "Angular Js Development" },],
+    desc: [
+      { text: "Corporate & Business Website Design" },
+      { text: "Custom Web Design" },
+      { text: "UI/UX Design" },
+      { text: "Responsive Web Design" },
+      { text: "Shopify Website Design" },
+      { text: "E-Commerce Website Design" },
+      { text: "Website Re-Designing" },
+      { text: "Wordpress Website Design" },
+      { text: "Campaign Landing Page Design" },
+      { text: "Static Website" },
+      { text: "Dynamic Website Design" },
+      { text: "Mobile Website Design" },
+      { text: "Portfolio Website Design" },
+    ],
   },
   {
     id: 2,
     title: "Digital Marketing",
     cover: "../images/digitalmarketing.jpeg",
-    desc: [{ text: "Social media marketing" }, { text: "Marketing campaigns" }, { text: "Markting management" }, { text: "SEO" }, { text: "Website Speed Boost & Optimization" }, { text: "Brand Outreach & Promotion" }, { text: "Target Customer Datebase Acquisition" },{ text: "Social Media Optimization" }, { text: "Lead Generation" }],
+    desc: [
+      { text: "Digital Marketing Services" },
+      { text: "Digital Marketing Strategy" },
+      { text: "Google Ads (Pay per Click)" },
+      { text: "Quora Marketing" },
+      { text: "E-mail Markting" },
+      { text: "SEO" },
+      { text: "Social Media Ads" },
+      { text: "Socail Media Page Management" },
+      { text: "Target Customer Datebase Acquisition" },
+      { text: "Social Media Optimization" },
+      { text: "Lead Generation Services" },
+      { text: "Instagram Marketing" },
+      { text: "Influencer Marketing" },
+    ],
   },
   {
     id: 3,
     title: "App Development",
-    cover: "../images/app.png",
-    desc: [{ text: "App design" }, { text: "App development" }, { text: "Custom icons and UI/UX Greate Interface" }, { text: "Web App" },{ text: "Hybrid App" }, { text: "Native Development" }],
+    cover: "../images/appdev.jpg",
+    desc: [
+      { text: "iOS App Design & Development" },
+      { text: "Android  App Design & Development" },
+      { text: "Flutter App Development" },
+      { text: "React Native Development" },
+      { text: "Ecommerce App Development" },
+      { text: "OTT App Development" },
+    ],
   },
   {
     id: 4,
     title: "Graphic Design",
     cover: "../images/graphics.png",
-    desc: [{ text: "Complete Branding." }, { text: "Logo Designing" }, { text: "Graphic Designs" }, { text: "Product Packaging Designs" },{ text: "Business Presentation" }, { text: "2D & 3D Animated Videoes" }],
+    desc: [
+      { text: "Product Photo & Video Shoot." },
+      { text: "Logo Design" },
+      { text: "Graphic Design" },
+      { text: "Packaging Design" },
+      { text: "Video Editing Services" },
+      { text: "2D & 3D Animated Videoes" },
+    ],
   },
-
-]
+];
 export const testimonial = [
   {
     id: 1,
@@ -78,14 +118,13 @@ export const testimonial = [
     post: "School",
     desc: "SetupWeb delivered outstanding results, surpassing my expectations. Their expertise and strategic approach helped establish a strong online presence, driving significant growth for my business. Highly recommended for their professionalism, exceptional service, and ability to achieve tangible results in the digital landscape.",
   },
-]
+];
 export const showcase = [
   {
     id: 1,
     title: "2D & 3D Video Making",
     cover: "../images/2d.jpeg",
     catgeory: "VIDEO MAKING",
-
   },
   {
     id: 2,
@@ -117,32 +156,30 @@ export const showcase = [
     cover: "../images/setuplogo.png",
     catgeory: "DESIGN",
   },
-]
+];
 export const brand = [
   {
     id: 1,
-    cover: "../images/angular.jpeg",
+    cover: "../images/cloud.jpeg",
   },
   {
     id: 2,
-    cover: "../images/python.jpeg",
+    cover: "../images/smmm.jpg",
   },
   {
     id: 3,
-    cover: "../images/js.jpeg",
+    cover: "../images/wb.png",
   },
   {
     id: 4,
-    cover: "../images/aws.jpeg",
+    cover: "../images/graphics.jpeg",
   },
   {
     id: 5,
-    cover: "../images/react.jpeg",
+    cover: "../images/vd.jpg",
   },
   {
     id: 6,
     cover: "../images/wordpress.jpeg",
   },
-
-]
-
+];

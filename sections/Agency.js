@@ -31,15 +31,15 @@ const Agency = () => {
               </p>
               <div className='grid-3'>
                 <div className='box'>
-                  <h1 className='indigo'>1+</h1>
+                  <h1 className='indigo'>2+</h1>
                   <h3>Years of experience</h3>
                 </div>
                 <div className='box'>
-                  <h1 className='indigo'>10+</h1>
+                  <h1 className='indigo'>200+</h1>
                   <h3>Successful cases</h3>
                 </div>
                 <div className='box'>
-                  <h1 className='indigo'>2+</h1>
+                  <h1 className='indigo'>5+</h1>
                   <h3>Industry awards</h3>
                 </div>
               </div>
